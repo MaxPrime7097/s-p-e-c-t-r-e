@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectre-cli"
+version = "0.1.0"
+description = "Terminal CLI for S.P.E.C.T.R.E realtime backend integration"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "requests",
+]
+
+[project.scripts]
+spectre = "spectre_cli.__main__:main"
+spectre-cli = "spectre_cli.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["spectre_cli*"]
+
+[tool.poetry.scripts]
+spectre = "spectre_cli.__main__:main"
