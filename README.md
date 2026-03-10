@@ -118,3 +118,40 @@ python spectre_agent.py
 # optional auto-apply
 python spectre_agent.py --auto-apply --target-file /path/to/file
 ```
+<<<<< codex/create-mvp-for-s.p.e.c.t.r.e-project-77yxav
+
+## spectre-cli (Terminal client)
+
+Install editable package:
+
+```bash
+pip install -e .
+```
+
+Run CLI:
+
+```bash
+python -m spectre_cli live
+# or
+spectre-cli live
+# or
+spectre live
+```
+
+Initial configuration:
+
+```bash
+spectre-cli config
+```
+
+Available commands:
+
+- `spectre-cli live [--voice]`
+- `spectre-cli status`
+- `spectre-cli apply --file /path/to/file`
+- `spectre-cli timeline`
+- `spectre-cli config`
+
+Config file location: `~/.spectre/config.json`.
+=======
+>>>> main
