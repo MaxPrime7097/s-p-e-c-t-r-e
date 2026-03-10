@@ -118,6 +118,7 @@ python spectre_agent.py
 # optional auto-apply
 python spectre_agent.py --auto-apply --target-file /path/to/file
 ```
+<<<<< codex/create-mvp-for-s.p.e.c.t.r.e-project-77yxav
 
 ## spectre-cli (Terminal client)
 
@@ -152,3 +153,5 @@ Available commands:
 - `spectre-cli config`
 
 Config file location: `~/.spectre/config.json`.
+=======
+>>>> main
